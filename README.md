@@ -28,7 +28,7 @@ src/main/java/com/trainbooking
 
 ```
 
-model
+1 Model
 
 Plain Java objects (POJOs)
 
@@ -38,6 +38,7 @@ public class User {
     private int id;
     private String name;
 }
+
 
 2️ service
 
@@ -55,6 +56,7 @@ public class UserServiceImpl implements UserService {
     }
 }
 
+
 3️ repository
 
 Data access layer
@@ -64,6 +66,7 @@ For now, use in-memory storage
 public class UserRepository {
     private List<User> users = new ArrayList<>();
 }
+
 
 4️ exception
 
