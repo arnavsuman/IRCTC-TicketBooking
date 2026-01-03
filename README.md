@@ -1,6 +1,7 @@
 # IRCTC-TicketBooking
 
 src/main/java/com/trainbooking
+```
 │
 ├── user
 │   ├── model
@@ -25,7 +26,7 @@ src/main/java/com/trainbooking
 │
 └── App.java
 
-
+```
 
 model
 
